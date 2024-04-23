@@ -1,0 +1,127 @@
+.navbar {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    padding: 1rem;
+    text-align: justify;
+    background-color: transparent;
+    width: 50px;
+    height: 100px;
+   }
+   
+ #text{
+    margin-right: 50px;
+    font-family: Arial;
+    font-size:smaller;
+    color: #261003;
+  }
+ .links{
+    display: flex;
+    justify-content: space-between;
+    width: 20%;
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+    color: #000000;
+     
+ }
+ #icons
+ {
+    display: flex;
+    justify-content: space-between;
+    width: 3vw;
+    height: 3vh;
+    text-align: center;
+    margin-right: 20px;
+ }
+
+ .footer{
+    justify-content: center;
+    background-color: #061d46;
+    color: #ffff;
+    background-size: cover;
+    width: 100%;
+    height: 200px;
+ }
+
+ .plugs-block{
+    justify-content: center;
+    background-color: #ffffff;
+    color: #061d46;
+    width: 100%;
+    height: 200px;
+ }
+ .links{
+    justify-content: center;
+    background-color: #ffffff;
+    color: #061d46;
+    width: 100%;
+    height: 100px;
+ }
+
+ header {
+   width: 100%;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ 
+ button {
+   background: #000;
+   box-shadow: 0px 10px 30px 0px rgba(146, 154, 155, 0.05);
+   color: #fff;
+   padding: 12px 25px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ ul {
+   list-style: none;
+   padding: unset;
+   margin: unset;
+ }
+ 
+ li {
+   padding: 14px;
+   transition: all linear 0.3s;
+ }
+ 
+ li:hover {
+   background: gray;
+   cursor: pointer;
+   color: #fff;
+ }
+ 
+ .dropdown-menu {
+   background: #fff;
+   box-shadow: 0px 10px 30px 0px rgba(82, 63, 105, 0.05);
+   transition: all linear 0.3s;
+ }
+
+ .footer{
+  background-color: #c0c0c0;
+  color: #ffff;
+  background-size: crgb(136, 29, 29);
+  width: 100%;
+  height: 200px;
+  justify-content: space-between;
+  text-align: justify;
+
+ }
+ .profImage {
+  display: inline-block;
+  margin: 10px;
+}
+
+.prof img {
+  width: 300px;
+  height: 300px;
+}
+.map{
+  color:#c00;
+  font-size:16px;
+  font-weight:bold;
+}
